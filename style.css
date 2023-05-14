@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(209, 209, 209);
+    text-align: center;
+}
+input{
+    min-height: 50px;
+    max-height: 50px;
+    border-radius: 10px;
+    border: 3px solid aquamarine;
+    background: rgb(209, 209, 209) !important;
+}
+::placeholder{
+    color: black;
+    text-align: center;
+}
+.numbers{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    margin-top: 20px;
+    width: 100px;
+    font-weight: bolder;
+    border: 3px solid orange;
+    cursor: pointer;
+}
+p{
+    color: white;
+}
+input[type="text"]:focus {
+    text-align: center;
+}
+input[type="text"]:after {
+    text-align: center;
+}
