@@ -10,11 +10,6 @@
 </head>
 <body>
     <?php
-        $a = 5;
-        $b = 10;
-        /*
-        echo "<p>$a + $b = .$a + $b.</p>";
-        */
         $num1 = (isset($_POST["num1"]) and !empty($_POST["num1"])) ? $_POST["num1"] : 0;
         $num2 = (isset($_POST["num2"]) and !empty($_POST["num2"])) ? $_POST["num2"] : 0;
         $op = (isset($_POST["op"]) and !empty($_POST["op"])) ? $_POST["op"] : 0;
